@@ -1530,27 +1530,79 @@ Defines the rules and dependencies for your project’s modules.
     |-- <a href="#8.3.1">GenericShooter</a>
     |   |-- Automation
     |   |-- Private
-    |   |   |-- Industrial
-    |   |   |-- Abilities
-    |   |   |-- Components
-    |   |   |-- Core
-    |   |   |-- Debug
-    |   |   |-- Game
-    |   |   |-- Interactives
-    |   |   │   |-- Ammo
+    |   |   |-- Animation
+    |   |   │   |-- CustomAnimInstance.cpp
+    |   |   |-- Audio
+    |   |   │   |-- AudioSettings.cpp
+    |   |   |-- Character
+    |   |   |   |-- CustomCharacter.cpp
+    |   |   |   |-- CustomPawn.cpp
+    |   |   |   |-- HealthComponent.cpp
+    |   |   |-- Camera
+    |   |   │   |-- CustomCameraManager.cpp
+    |   |   |-- Development
+    |   |   │   |-- CustomDeveloperSettings.cpp
+    |   |   |-- GameModes
+    |   |   │   |-- CustomGameMode.cpp
+    |   |   │   |-- ExperienceManagerComponent.cpp
+    |   |   |-- Input
+    |   |   │   |-- CustomInputComponent.cpp
+    |   |   |-- Interaction
+    |   |   │   |-- GameplayTask_Interaction.cpp
+    |   |   │   |-- InteractableBase.cpp
     |   |   |-- Player
+    |   |   │   |-- CustomPlayableCharacter.cpp
+    |   |   │   |-- CustomPlayerController.cpp
+    |   |   |-- System
+    |   |   │   |-- CustomAssetManager.cpp
+    |   |   │   |-- CustomGameEngine.cpp
+    |   |   │   |-- CustomGameInstance.cpp
     |   |   |-- UI
+    |   |   │   |-- Common
+    |   |   │   │   |-- CustomButtomBase.cpp
+    |   |   │   │   |-- CustomWidgetFactory.cpp
+    |   |   │   │   |-- CustomWidgetBase.cpp
+    |   |   │   |-- Subsystem
+    |   |   │   │   |-- UIManagerSubsystem.cpp
+    |   |   │   |-- CustomHUD.cpp
+    |   |   │   |-- CustomWidget.cpp
     |   |-- Public
-    |   |   |-- Industrial
-    |   |   |-- Abilities
-    |   |   |-- Components
-    |   |   |-- Core
-    |   |   |-- Debug
-    |   |   |-- Game
-    |   |   |-- Interactives
-    |   |   │   |-- Ammo
+    |   |   |-- Animation
+    |   |   │   |-- CustomAnimInstance.h
+    |   |   |-- Audio
+    |   |   │   |-- AudioSettings.h
+    |   |   |-- Character
+    |   |   |   |-- CustomCharacter.h
+    |   |   |   |-- CustomPawn.h
+    |   |   |   |-- HealthComponent.h
+    |   |   |-- Camera
+    |   |   │   |-- CustomCameraManager.h
+    |   |   |-- Development
+    |   |   │   |-- CustomDeveloperSettings.h
+    |   |   |-- GameModes
+    |   |   │   |-- CustomGameMode.h
+    |   |   │   |-- ExperienceManagerComponent.h
+    |   |   |-- Input
+    |   |   │   |-- CustomInputComponent.h
+    |   |   |-- Interaction
+    |   |   │   |-- GameplayTask_Interaction.h
+    |   |   │   |-- InteractableBase.h
     |   |   |-- Player
+    |   |   │   |-- CustomPlayableCharacter.h
+    |   |   │   |-- CustomPlayerController.h
+    |   |   |-- System
+    |   |   │   |-- CustomAssetManager.h
+    |   |   │   |-- CustomGameEngine.h
+    |   |   │   |-- CustomGameInstance.h
     |   |   |-- UI
+    |   |   │   |-- Common
+    |   |   │   │   |-- CustomButtomBase.h
+    |   |   │   │   |-- CustomWidgetFactory.h
+    |   |   │   │   |-- CustomWidgetBase.h
+    |   |   │   |-- Subsystem
+    |   |   │   │   |-- UIManagerSubsystem.h
+    |   |   │   |-- CustomHUD.h
+    |   |   │   |-- CustomWidget.h
     |   |-- GenericShooter.Build.cs
     |-- <a href="#8.3.2">GenericShooterEditor</a>
     |   |-- Private
